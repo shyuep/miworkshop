@@ -15,6 +15,20 @@ instructions for setting up your laptop prior to the workshop.
 * OS should be reasonably modern and updated. Ideally, latest versions of 
   Windows, Mac or Linux OS, but slightly older versions should also be fine.
 
+# Materials Project Account and API key
+
+1. Go to [https://materialsproject.org](https://materialsproject.org) in your
+   browser.
+
+2. Sign up for a free account if you do not already have one.
+
+3. Login to the Materials Project.
+
+4. Go to [https://materialsproject.org/dashboard](https://materialsproject.org/dashboard).
+
+5. Click "Generate API key" and copy down the API key. You will be using it to
+   query the Materials Project for data.
+
 # Machine preparation
 
 1. Go to [https://conda.io/miniconda.html](https://conda.io/miniconda.html) 
@@ -65,6 +79,13 @@ instructions for setting up your laptop prior to the workshop.
 
    You should see something like "2017.12.8" or similar in your terminal.
 
+7. Clone the [Github repository](https://github.com/shyuep/miworkshop.git) for
+   this workshop by doing:
+
+   ```bash
+   git clone https://github.com/shyuep/miworkshop.git
+   ```
+
 7. You may exit your environment by typing:
 
    On Windows:
@@ -77,16 +98,3 @@ instructions for setting up your laptop prior to the workshop.
    source deactivate
    ```
    
-# Materials Project Account and API key
-
-1. Go to [https://materialsproject.org](https://materialsproject.org) in your
-   browser.
-
-2. Sign up for a free account if you do not already have one.
-
-3. Login to the Materials Project.
-
-4. Go to [https://materialsproject.org/dashboard](https://materialsproject.org/dashboard).
-
-5. Click "Generate API key" and copy down the API key. You will be using it to
-   query the Materials Project for data.
