@@ -63,7 +63,7 @@ instructions for setting up your laptop prior to the workshop.
    python -c "import pymatgen; print(pymatgen.__version__)"
    ```
 
-   You should see something like "2017.12.6" or similar in your terminal.
+   You should see something like "2017.12.8" or similar in your terminal.
 
 7. You may exit your environment by typing:
 
