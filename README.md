@@ -24,7 +24,7 @@ instructions for setting up your laptop prior to the workshop.
 
 3. Login to the Materials Project.
 
-4. Go to [https://materialsproject.org/dashboard](https://materialsproject.org/dashboard).
+4. Go to your [Materials Project dashboard](https://materialsproject.org/dashboard).
 
 5. Click "Generate API key" and copy down the API key. You will be using it to
    query the Materials Project for data.
@@ -84,6 +84,12 @@ instructions for setting up your laptop prior to the workshop.
 
    ```bash
    git clone https://github.com/shyuep/miworkshop.git
+   ```
+
+8. Add your Materials Project API key to your configuration file by typing
+
+   ```bash
+   pmg config --add PMG_MAPI_KEY "<type in your API key from Materials Project>"
    ```
 
 7. You may exit your environment by typing:
