@@ -1,0 +1,76 @@
+data_95649-ICSD
+#2017 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                95649
+_audit_creation_date               2003/10/01
+_chemical_name_systematic          'Tetralithium Germanium Sulfide'
+_chemical_formula_structural       'Li4 Ge S4'
+_chemical_formula_sum              'Ge1 Li4 S4'
+_publ_section_title
+;
+Structure of the thio-LISICON, Li4 Ge S4
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_journal_issue
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Solid State Ionics' 2002 154 * 789 794 SSIOD3
+_publ_author_name
+;
+Murayama, M.;Kanno, R.;Kawamoto, Y.;Kamiyama, T.
+;
+_cell_length_a                     14.0340(3)
+_cell_length_b                     7.7548(2)
+_cell_length_c                     6.15023(17)
+_cell_angle_alpha                  90
+_cell_angle_beta                   90
+_cell_angle_gamma                  90
+_cell_volume                       669.33
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'P n m a'
+_symmetry_Int_Tables_number        62
+_refine_ls_R_factor_all            0.0073
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x+1/2, y, -z+1/2'
+  2	'x, -y+1/2, z'
+  3	'-x+1/2, y+1/2, z+1/2'
+  4	'-x, -y, -z'
+  5	'-x+1/2, -y, z+1/2'
+  6	'-x, y+1/2, -z'
+  7	'x+1/2, -y+1/2, -z+1/2'
+  8	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ge4+	4
+Li1+	1
+S2-	-2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_B_iso_or_equiv
+Li1 Li1+ 4 c 0.4127(6) 0.750 0.3685(12) 1. 0 2.64(16) 
+Li2 Li1+ 8 d 0.1768(4) -0.0027(5) 0.3003(9) 1. 0 3.28(14) 
+Li3 Li1+ 4 b 0 0 0.5 1. 0 3.5(2) 
+Ge1 Ge4+ 4 c 0.41078(12) 0.250 0.3506(2) 1. 0 1.40(7) 
+S1 S2- 8 d 0.3428(2) 0.0149(3) 0.2242(5) 1. 0 1.49(9) 
+S2 S2- 4 c 0.0871(3) 0.750 0.2034(6) 1. 0 1.41(9) 
+S3 S2- 4 c 0.0610(2) 0.250 0.2685(7) 1. 0 1.70(12) 
+
+#End of data_95649-ICSD
+
+
