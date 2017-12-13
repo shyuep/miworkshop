@@ -15,7 +15,7 @@ instructions for setting up your laptop prior to the workshop.
 * OS should be reasonably modern and updated. Ideally, latest versions of 
   Windows, Mac or Linux OS, but slightly older versions should also be fine.
 
-## Machine preparation
+# Machine preparation
 
 1. Go to [https://conda.io/miniconda.html](https://conda.io/miniconda.html) 
    in your browser. Download and install the appropriate version of 
@@ -25,13 +25,54 @@ instructions for setting up your laptop prior to the workshop.
 2. Open up an Anaconda terminal (if you are on Windows) or simply a terminal 
    (Mac or Linux). Create an environment for this workshop as follows:
    ```bash
-   conda create --name MIWorkshop python=3
+   conda create --name MIWorkshop --yes python=3.6
    ```
    An environment is an isolated box in which you can work on things without
    affecting the rest of your machine. It is also easy to start over if you make
    any mistakes. More information can be found
    [here](https://conda.io/miniconda.html)
 3. Go into the new conda environment.
+
+   On Windows:
+   ```bash
+   activate MIWorkshop
+   ```
+   
+   On Mac/Linux:
    ```bash
    source activate MIWorkshop
    ```
+4. Install some common scientific Python packages from the Anaconda cloud.
+   ```bash
+   conda install --yes numpy scipy matplotlib sympy pandas requests jupyter
+   ```
+5. Install pymatgen from the matsci channel.
+   ```bash
+   conda install --yes --channel matsci pymatgen
+   ```
+6. Check that you have installed everything correctly by typing:
+   ```bash
+   python -c "import pymatgen; print(pymatgen.__version__)"
+   ```
+   You should see something like "2017.12.6" or similar in your terminal.
+7. You may exit your environment by typing:
+
+   On Windows:
+   ```bash
+   deactivate MIWorkshop
+   ```
+
+   On Mac/Linux:
+   ```bash
+   source deactivate
+   ```
+   
+# Materials Project Account and API key
+
+1. Go to [https://materialsproject.org](https://materialsproject.org) in your
+   browser.
+2. Sign up for a free account if you do not already have one.
+3. Login to the Materials Project.
+4. Go to [https://materialsproject.org/dashboard](https://materialsproject.org/dashboard).
+5. Click "Generate API key" and copy down the API key. You will be using it to
+   query the Materials Project for data.
