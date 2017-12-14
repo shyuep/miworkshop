@@ -62,7 +62,7 @@ instructions for setting up your laptop prior to the workshop.
 4. Install some common scientific Python packages and tools from Anaconda cloud.
 
    ```bash
-   conda install --yes numpy scipy matplotlib sympy pandas requests jupyter git
+   conda install --yes numpy scipy matplotlib sympy pandas requests jupyter git pymongo
    ```
 
 5. Install pymatgen from the matsci channel.
