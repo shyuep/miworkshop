@@ -97,10 +97,42 @@ instructions for setting up your laptop prior to the workshop.
    On Windows:
    ```bash
    deactivate MIWorkshop
-   ```
+   ```   
 
    On Mac/Linux:
    ```bash
    source deactivate
    ```
    
+# Starting a new session
+
+1. Open up an Anaconda terminal (if you are on Windows) or simply a terminal 
+   (Mac or Linux).
+
+2. Activate your environment.
+
+   On Windows:
+   ```bash
+   activate MIWorkshop
+   ```
+   
+   On Mac/Linux:
+   ```bash
+   source activate MIWorkshop
+   ```
+   
+3. Go to the cloned repo and notebooks directory.
+
+   ```bash
+   cd miworkshop
+   cd notebooks
+   ```
+   
+4. Start the Jupyter notebook.
+
+   ```bash
+   jupyter notebook
+   ```
+   
+5. Go to http://localhost:8888 in your browser.
+
