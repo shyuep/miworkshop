@@ -33,14 +33,14 @@ instructions for setting up your laptop prior to the workshop.
 
 1. Go to [https://conda.io/miniconda.html](https://conda.io/miniconda.html) 
    in your browser. Download and install the appropriate version of 
-   **Python 3.6 miniconda** for your operating system. Detailed installation
+   **Python 3+ miniconda** for your operating system. Detailed installation
    instructions can be found [here](https://conda.io/docs/user-guide/install/index.html) 
    for all OSes.
 
 2. Open up an Anaconda terminal (if you are on Windows) or simply a terminal 
    (Mac or Linux). Create an environment for this workshop as follows:
    ```bash
-   conda create --name MIWorkshop --yes python=3.6
+   conda create --name MIWorkshop --yes python=3.7
    ```
    An environment is an isolated box in which you can work on things without
    affecting the rest of your machine. It is also easy to start over if you make
@@ -77,7 +77,7 @@ instructions for setting up your laptop prior to the workshop.
    python -c "import pymatgen; print(pymatgen.__version__)"
    ```
 
-   You should see something like "2017.12.8" or similar in your terminal.
+   You should see something like "2018.11.6" or similar in your terminal.
 
 7. Clone the [Github repository](https://github.com/shyuep/miworkshop.git) for
    this workshop by doing:
