@@ -29,7 +29,15 @@ instructions for setting up your laptop prior to the workshop.
 5. Click "Generate API key" and copy down the API key. You will be using it to
    query the Materials Project for data.
 
-# Machine preparation
+# Using Binder
+
+For this second workshop, I have decided to use binder, which allows you to run all the code examples without having to install anything on your machine. Click the icon below to get started.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shyuep/miworkshop/master)
+
+# Setting up your own machine
+
+If you prefer to run the examples from your machine, or you want to use pymatgen and all the code on a more permanent basis, you can set up your machine as follows:
 
 1. Go to [https://conda.io/miniconda.html](https://conda.io/miniconda.html) 
    in your browser. Download and install the appropriate version of 
