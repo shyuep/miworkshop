@@ -1,1 +1,2 @@
 pymatgen==2018.11.6
+seaborn==0.9.0
